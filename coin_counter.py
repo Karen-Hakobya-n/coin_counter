@@ -6,7 +6,7 @@ boxes = []
 path = str()
 for result in results:
     boxes = list(result.boxes.cls)  # Boxes object for bbox cls outputs
-    path = ''.join(str(result.path))
+    path = ''.join(str(result.path)) # Image Path
 
 
 coins = {0: 10, 1: 20, 2: 50, 3: 100, 4: 200, 5: 500}
