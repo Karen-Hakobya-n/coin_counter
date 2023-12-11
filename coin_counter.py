@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO('C:/Users/User/Downloads/best (1).pt')
+model = YOLO('best (1).pt')
 results = model.predict(source='Test_images/20231211_164424.jpg', save=False, imgsz=(640, 640), conf=0.7)
 boxes = []
 path = str()
